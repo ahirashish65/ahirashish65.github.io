@@ -21,7 +21,7 @@
 
 
     <script type="text/javascript">
-        var isSubmitted = false; F
+        var isSubmitted = false; 
         var isSubmitteddown = false;
 
         function ValidateBottom() {
@@ -329,7 +329,16 @@
 
 
         /* Turn off parallax scrolling for tablets and phones */
-    
+        
+        @media only screen and (max-device-width: 1024px) { 
+            .bgimg-1, .bgimg-2, .bgimg-3 { 
+            background-attachment: scroll;
+            }
+            }
+
+        .lead{
+            text-align: justify;
+        }
 
         .hs_cos_wrapper_type_form {
             margin: 10px auto 30px;
@@ -1154,19 +1163,19 @@
                     </center>
 
                 </div>
-
+                    <center>
                 <div class="row col-lg-12 slideanim">
                     <div class="col-lg-2"></div>
                     <div class="col-lg-3" style="padding: 4px 40px 40px 40px;">
 
-
+                      
                         <a href="3-pages-website-template/home.html"><img src="images/Thumb-3page.png"
                                 style="width:120px; height:250px" title="Template - 3-Pages Website"
                                 alt="Template 3-page website"></a>
                         <br><br>
                         <p> Multi Page(3) website built on intelligent HTML5 + CSS3, compatible on any size of screen.
                             To be customized as per need of clients - very suitable for small businesses providing exact
-                            information needed. </p>
+                            information needed. </p> 
                     </div>
 
                     <div class="col-lg-3" style="padding: 4px 40px 40px 40px;">
@@ -1197,6 +1206,7 @@
                     </div>
                     <div class="col-lg-1"></div>
                 </div>
+            </center>
 
             </div>
             <div class="bgimg-2">
@@ -1259,6 +1269,7 @@
                             </p>
 
                         </div>
+                        <center>
                         <div class="row col-lg-12">
                             <div class="col-lg-3">
                                 <a href="code/crossfit-lp.html"><img src="images/lp1.png" title="Fitness"
@@ -1287,6 +1298,7 @@
 
                             <br />
                         </div>
+                    </center>
                     </div>
                 </div>
                 <div class="col-lg-1"></div>
@@ -1573,16 +1585,7 @@
             })
 
 
-            $(document).ready(function () {
-                $('.slider').slick({
-                    autoplay: true,
-                    autoplaySpeed: 1000,
-                    dots: true,
-                    arrows: false,
-                    fade: true,
-                    speed: 1000
-                });
-            });
+           
         </script>
 
 

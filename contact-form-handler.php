@@ -4,7 +4,7 @@
     $phone_number = $_POST['phone'];
     $message = $_POST['message'];
 
-    $email_from = 'ahirashish65@gmail.com';
+    $email_from = 'ash@gigaprofits.com';
 
     $email_subject = "New Message From Website";
 
